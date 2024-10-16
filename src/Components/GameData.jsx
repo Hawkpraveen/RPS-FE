@@ -5,6 +5,7 @@ import axios from "axios";
 const GameData = () => {
   const [games, setGames] = useState([]);
 
+  
   useEffect(() => {
     axios
       .get("http://13.48.194.218:5000/api/games")
