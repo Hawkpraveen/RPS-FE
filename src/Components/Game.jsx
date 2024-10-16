@@ -183,7 +183,7 @@ const Game = () => {
           };
 
           axios
-            .post("http://13.51.207.180:5000//api/games", gameData)
+            .post("http://ec2-13-51-207-180.eu-north-1.compute.amazonaws.com:5000/api/games", gameData)
             .then((response) => {
               console.log("Game data saved:", response.data);
             })

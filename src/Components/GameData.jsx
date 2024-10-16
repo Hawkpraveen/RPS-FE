@@ -8,7 +8,7 @@ const GameData = () => {
 
   useEffect(() => {
     axios
-      .get("http://13.51.207.180:5000//api/games")
+      .get("http://ec2-13-51-207-180.eu-north-1.compute.amazonaws.com:5000/api/games")
       .then((response) => {
         setGames(response.data);
       })
