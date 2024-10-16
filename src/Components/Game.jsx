@@ -183,7 +183,7 @@ const Game = () => {
           };
 
           axios
-            .post("http://13.48.194.218:5000/api/games", gameData)
+            .post("http://13.51.207.180:5000//api/games", gameData)
             .then((response) => {
               console.log("Game data saved:", response.data);
             })
