@@ -7,7 +7,7 @@ const GameData = () => {
 
   useEffect(() => {
     axios
-      .get("https://rps-be.onrender.com/api/games")
+      .get("http://13.48.194.218:5000/api/games")
       .then((response) => {
         setGames(response.data);
       })
